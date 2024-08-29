@@ -1,7 +1,7 @@
 
 <?php 
 
-include ("../connect.php");
+include 'authenticate.php';
 
 if(isset($_POST['signUp'])){
     $firstName=$_POST['firstName'];
